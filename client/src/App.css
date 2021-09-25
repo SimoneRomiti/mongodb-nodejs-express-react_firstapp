@@ -1,0 +1,59 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  width: 200px;
+  height: 20px;
+  margin: 10px;
+}
+
+button {
+  background-color: #0d6efd;
+  width: 200px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover{
+  cursor:pointer;
+}
+
+.empty{
+  display: flex;
+  flex-direction: column;
+}
+
+.card{
+  border: 1px solid grey;
+  padding-left: 0px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  padding-left: 0
+}
+
+li{
+  margin: 10px;
+  list-style: none;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background: #0d6efd;
+  color: white;
+  font-weight: bold;
+}
+
+.box{
+  padding: 20px;
+}
+
